@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/@danielmeneses/harness2.svg)](https://www.npmjs.com/package/@danielmeneses/harness2)
 [![Node.js](https://img.shields.io/node/v/@danielmeneses/harness2.svg)](https://nodejs.org/)
 [![GitHub](https://img.shields.io/badge/GitHub-danielmeneses%2Fharness2-181717?logo=github)](https://github.com/danielmeneses/harness2)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A terminal coding agent whose **loop belongs to the model**.
 
@@ -554,3 +555,7 @@ chat mode for native templates/tools.
 Everything is one process and one terminal. Markdown is line-oriented: headings,
 lists, task lists, quotes, fenced code, aligned tables, and inline emphasis/links
 are supported, but not full CommonMark, setext headings, or syntax highlighting.
+
+## License
+
+MIT © Daniel Meneses

@@ -26,9 +26,10 @@
   },
   "files": [
     "dist/**/*.js",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "keywords": [
     "agent",
     "coding-agent",
