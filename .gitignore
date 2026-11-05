@@ -1,0 +1,44 @@
+# Dependencies and generated build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Project-local legacy state and secrets; config/settings may be committed
+.harness2/sessions/
+.harness2/history.jsonl
+.harness2/tmp/
+.harness2/auth.json
+.harness2/grants.json
+.pi/
+.claude/
+.history/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+/auth.json
+/settings.json
+/grants.json
+*.local
+
+# Generated artifacts and logs
+coverage/
+.nyc_output/
+*.tgz
+*.log
+npm-debug.log*
+harness2-export-*.md
+events*.jsonl
+.cache/
+tmp/
+temp/
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,58 @@
+# Source and development files (the package ships dist/ only)
+src/
+test/
+scripts/
+tsconfig.json
+tsconfig.build.json
+package-lock.json
+npm-shrinkwrap.json
+AGENTS.md
+PLAN.md
+.npmignore
+.gitignore
+.git/
+.npmrc
+.github/
+.vscode/
+.idea/
+.editorconfig
+.prettierrc*
+.eslintrc*
+.harness2/
+.pi/
+.claude/
+.history/
+node_modules/
+coverage/
+.nyc_output/
+.cache/
+
+# Secrets and local state
+.env
+.env.*
+auth.json
+settings.json
+grants.json
+*.local
+
+# Build/test noise
+*.tgz
+*.log
+*.tsbuildinfo
+harness2-export-*.md
+events*.jsonl
+*.swp
+*.swo
+.coverage/
+tmp/
+temp/
+
+# Platform/editor noise
+.DS_Store
+Thumbs.db
+
+# Keep compiled runtime and README; ignore stray source/debug artifacts
+dist/**/*.map
+dist/**/*.d.ts
+dist/**/*.test.js
+dist/**/__tests__/
