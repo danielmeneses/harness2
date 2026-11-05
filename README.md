@@ -1,5 +1,9 @@
 # harness2
 
+[![npm version](https://img.shields.io/npm/v/@danielmeneses/harness2.svg)](https://www.npmjs.com/package/@danielmeneses/harness2)
+[![Node.js](https://img.shields.io/node/v/@danielmeneses/harness2.svg)](https://nodejs.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-danielmeneses%2Fharness2-181717?logo=github)](https://github.com/danielmeneses/harness2)
+
 A terminal coding agent whose **loop belongs to the model**.
 
 Most harnesses run a fixed loop: call model → run tools → repeat. harness2 starts
@@ -30,7 +34,7 @@ npm install -g .
 
 # or install a packed tarball
 npm pack
-npm install -g ./danielmeneses-harness2-0.1.0.tgz
+npm install -g ./danielmeneses-harness2-0.1.1.tgz
 
 harness2 --version
 ```

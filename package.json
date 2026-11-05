@@ -1,6 +1,6 @@
 {
   "name": "@danielmeneses/harness2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Terminal coding agent whose loop belongs to the model",
   "bin": {
@@ -40,5 +40,14 @@
   "main": "./dist/main.js",
   "publishConfig": {
     "access": "public"
+  },
+  "author": "Daniel Meneses",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielmeneses/harness2.git"
+  },
+  "homepage": "https://github.com/danielmeneses/harness2#readme",
+  "bugs": {
+    "url": "https://github.com/danielmeneses/harness2/issues"
   }
 }
